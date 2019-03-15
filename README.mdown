@@ -1,5 +1,7 @@
 # Fork
 
+RAVKA -- Need the Async connection to be disposable rather than pooled due to background / forground conflicts & memory leaks.
+
 This is a fork of the original sqlite-net library (https://github.com/praeclarum/sqlite-net), which aims to improve the code quality by using modern technologies such as PCL (portable class library).
 
 The project will avoid the use of #if-based conditional code and use platform-specific code injection instead.
